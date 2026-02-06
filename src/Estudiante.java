@@ -1,4 +1,28 @@
-package PACKAGE_NAME;
-
+/**
+ * Clase estudiante con 2 atributos, su constructor y sus correspondientes getter y setter
+ */
 public class Estudiante {
+    private String nombre;
+    private double nota;
+
+    public Estudiante(String nombre, double nota) {
+        this.nombre = nombre;
+        this.nota = nota;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
 }
